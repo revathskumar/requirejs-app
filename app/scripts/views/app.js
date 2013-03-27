@@ -1,5 +1,5 @@
 define(["backbone"], function(Backbone){
-  var App = Backbone.Views.extends({
+  var App = Backbone.View.extend({
     initialize: function(){
       console.log("initilize");
     }

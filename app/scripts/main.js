@@ -1,12 +1,12 @@
 require.config({
   paths:{
-    "jquery" : "vendor/jquery/jquery.js",
-    "backbone" : "vendor/backbone-amd/backbone.js",
-    "underscore" : "vendor/underscore-amd/underscore.js"
+    "jquery" : "vendor/jquery/jquery",
+    "backbone" : "vendor/backbone-amd/backbone",
+    "underscore" : "vendor/underscore-amd/underscore"
   }
 });
 
 
-require(["views/app.js"], function(AppView){
+require(["scripts/views/app.js"], function(AppView){
   new AppView;
 });
