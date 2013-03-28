@@ -9,7 +9,23 @@
         <link rel=author href="humans.txt">
     </head>
     <body>
-        <h1>Learning Require JS</h1>
-        <script data-main="scripts/main.js" src="scripts/vendor/requirejs/require.js"></script>
+        <div class="container">
+            <div class="navbar">
+              <div class="navbar-inner">
+                <a class="brand" href="#">Learning RequireJS + Backbone</a>
+                <ul class="nav">
+                  <li><a href="#">Home</a></li>
+                  <li><a href="/#completed">Completed</a></li>
+                  <li><a href="/#pending">pending</a></li>
+                </ul>
+              </div>
+            </div>
+            <div id="new-todo"></div>
+            <div id="todo-list">
+
+            </div>
+        </div>
+
+        <script data-main="scripts/main" src="scripts/vendor/requirejs/require.js"></script>
     </body>
 </html>
