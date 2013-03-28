@@ -1,5 +1,1 @@
-.box{
-  background: #666;
-}
-
-@import 'button.css';
+@import 'bootstrap.css'
